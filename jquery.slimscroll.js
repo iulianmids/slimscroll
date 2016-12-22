@@ -425,7 +425,7 @@
             // publish approporiate event
             if (lastScroll != percentScroll)
             {
-                var msg = (~~percentScroll == 0) ? 'topss' : 'bottom';
+                var msg = (~~percentScroll == 0) ? 'top' : 'bottom';
                 me.trigger('slimscroll', msg);
             }
           }
